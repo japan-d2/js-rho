@@ -1,6 +1,6 @@
 {
   "name": "@japan-d2/rho",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript implementation that compute prime factors using Pollard's rho algorithm",
   "main": "lib/index.js",
   "type": "lib/index.d.ts",
@@ -20,8 +20,11 @@
   "author": "AOKI Yuto <yuto.aoki@japan-d2.com> (https://japan-d2.com)",
   "homepage": "https://github.com/japan-d2/rho",
   "license": "MIT",
+  "engines": {
+    "node": ">=10.4.0"
+  },
   "dependencies": {
-    "@japan-d2/gcd": "0.0.2"
+    "@japan-d2/gcd": "0.0.6"
   },
   "devDependencies": {
     "@types/jest": "^25.1.2",

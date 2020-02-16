@@ -14,22 +14,45 @@ or
 yarn add @japan-d2/rho
 ```
 
-# example
+# how to use
+
+## example
 
 ```ts
 import rho from '@japan-d2/rho'
 console.log(rho(451341))
 ```
 
-## Output
+### Output
 
 ```
 [3, 3, 11, 47, 97]
 ```
 
-# methods
+## methods
 
-## rho(n: number): number[]
+### rho(n: number): number[]
+
+Returns the prime factors of `n` sorted in ascending order.
+
+# BigInt support
+
+## example
+
+```ts
+import rho from '@japan-d2/rho/lib/bigint'
+console.log(rho(451341n))
+```
+
+### Output
+
+```
+[3n, 3n, 11n, 47n, 97n]
+```
+
+## methods
+
+### rho(n: bigint): bigint[]
 
 Returns the prime factors of `n` sorted in ascending order.
 
