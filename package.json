@@ -24,7 +24,7 @@
     "node": ">=10.4.0"
   },
   "dependencies": {
-    "@japan-d2/gcd": "^0.0.8"
+    "@japan-d2/gcd": "0.0.8"
   },
   "devDependencies": {
     "@types/jest": "^25.1.2",
