@@ -1,6 +1,6 @@
 {
   "name": "@japan-d2/rho",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "JavaScript implementation that compute prime factors using Pollard's rho algorithm",
   "main": "lib/index.js",
   "type": "lib/index.d.ts",
